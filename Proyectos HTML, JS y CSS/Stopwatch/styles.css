@@ -1,5 +1,5 @@
 body{
-    background-color: #f0f0f0;
+    background-image: linear-gradient(to bottom right, rgb(68, 68, 200), rgb(33, 121, 33));
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     display: flex;
     flex-direction: column;
@@ -7,6 +7,13 @@ body{
     min-height: 100vh;
     overflow: hidden;
     align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 80px;
+    
 }
 
 #timer{
